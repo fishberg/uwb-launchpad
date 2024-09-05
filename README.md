@@ -7,8 +7,9 @@ Public repo with documentation for setting up our UWB experiment code.
 # get ssh key
 scp fishberg@aldrin.local:~/.ssh/acl-alphabet* ~/.ssh
 echo -e "Host github.com\n    IdentityFile ~/.ssh/acl-alphabet" >> ~/.ssh/config
-sudo apt install git
 
+# clone repos
+sudo apt install git
 mkdir -p ~/dirs
 cd ~/dirs
 git clone git@github.com:fishberg/px4-raspi-devel.git
