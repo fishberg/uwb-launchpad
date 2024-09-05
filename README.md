@@ -15,10 +15,12 @@ cd ~/dirs
 git clone git@github.com:fishberg/px4-raspi-devel.git
 git clone git@github.com:fishberg/nooploop-uwb-tools.git
 git clone git@github.com:MarineRoboticsGroup/uwb-drone-px4-experiments.git
+
+# navigate to install directory
+cd ~/dirs/px4-raspi-devel/install
 ```
 
 ## Relevant Repos
 * [px4-raspi-devel](https://github.com/fishberg/px4-raspi-devel)
 * [nooploop-uwb-tools](https://github.com/fishberg/nooploop-uwb-tools)
 * [uwb-drone-px4-experiments](https://github.com/MarineRoboticsGroup/uwb-drone-px4-experiments)
-
