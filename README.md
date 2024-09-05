@@ -13,8 +13,6 @@ sudo apt install git
 mkdir -p ~/dirs
 cd ~/dirs
 git clone git@github.com:fishberg/px4-raspi-devel.git
-git clone git@github.com:fishberg/nooploop-uwb-tools.git
-git clone git@github.com:MarineRoboticsGroup/uwb-drone-px4-experiments.git
 
 # navigate to install directory
 cd ~/dirs/px4-raspi-devel/install
