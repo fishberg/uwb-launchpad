@@ -21,6 +21,15 @@ git clone git@github.com:fishberg/px4-raspi-devel.git
 cd ~/dirs/px4-raspi-devel/install
 ```
 
+## Sample ~/.ssh/config Entry
+```
+Host quadrotor
+    HostName quadrotor.local
+    Port 22
+    User swarm
+    IdentityFile ~/.ssh/robot
+```
+
 ## Relevant Repos
 * [px4-raspi-devel](https://github.com/fishberg/px4-raspi-devel)
 * [nooploop-uwb-tools](https://github.com/fishberg/nooploop-uwb-tools)
