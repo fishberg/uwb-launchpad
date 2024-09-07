@@ -8,6 +8,9 @@ Public repo with documentation for setting up our UWB experiment code.
 scp fishberg@aldrin.local:~/.ssh/acl-alphabet* ~/.ssh
 echo -e "Host github.com\n    IdentityFile ~/.ssh/acl-alphabet" >> ~/.ssh/config
 
+# ssh login access
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCnDl0aTGWXZoalqrOpB8o9LQcqj4I7r22hXsdF3NJtQ0j/b+y573DCh2nW41Rluq4Gj0/fpBGH14ftoQ8u7vgYI+Y9XVt4odOyD+K7s6lx4HkkrKaCgjhXbxYSbIuiyecIWdu0fv6gCHJFR4noofMkvmYq5Mk2PRsnai7TRiwUEz7XXT9AA+V5tq+inHq4hlU3ff4pJYYkSp7WMWScIgRsNw1sr5ZDE65VDWg6k1CRMWDxsKtk6aOT/ajaMQtNa23PDh/ryIb+9IabAo43Xey4kYH/XEIxnF6nEzKCoq2CZdokkNmQL0X2uYw5oBykwVLRu5zg5EiAtyXjHyeKDXuzIro20sI9N8KA4B47W4rdGosUDLbcH64+tEjsThQoiQ2IKRhJMnb2sxfw3sK5qeQhU8WyffVnvJIwjI4J+7a3e2W05quGHnMYxHQeaOpkr/Csby8lorZuZZ6LFIQq0XmiPibJ3OgoTGEI4tKFCGnj8TcanzR5kPjoBeYyW09qsdM= swarm@robot" >> ~/.ssh/authorized_keys
+
 # clone repos
 sudo apt install git
 mkdir -p ~/dirs
