@@ -4,6 +4,14 @@ Public repo with documentation for setting up our UWB experiment code.
 
 ## Quickstart
 ```bash
+# update
+sudo apt update
+sudo apt upgrade
+sudo ubuntu-drivers install
+
+# connect to wifi
+nmtui
+
 # install ssh, start, start by default, and confirm 
 sudo apt install ssh
 sudo systemctl start ssh.service
