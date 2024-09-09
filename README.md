@@ -9,6 +9,9 @@ sudo apt update
 sudo apt upgrade
 sudo ubuntu-drivers install
 
+# uninstall automatic updates
+sudo apt purge update-manager update-notifier unattended-upgrades
+
 # connect to wifi
 nmtui
 
